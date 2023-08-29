@@ -2,8 +2,7 @@ import useBillboard from '@/hooks/useBillboard';
 import React, { useCallback } from 'react';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 import useInfoModalStore from '@/hooks/useInfoModalStore';
-import PlayButton from './PlayButton';
-
+import {PlayButton} from './PlayButton';
 
 const Billboard = () => {
   const { data } = useBillboard();
@@ -46,6 +45,3 @@ const Billboard = () => {
 };
 
 export default Billboard;
-
-
-
