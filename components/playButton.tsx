@@ -6,7 +6,7 @@ interface PlayButtonProps {
   movieId: string;
 }
 
-export const PlayButton: React.FC<PlayButtonProps> = ({ movieId }) => {
+const PlayButton: React.FC<PlayButtonProps> = ({ movieId }) => {
   const router = useRouter();
 
   return (
@@ -33,4 +33,6 @@ export const PlayButton: React.FC<PlayButtonProps> = ({ movieId }) => {
   );
 };
 
+
+export default PlayButton
 
