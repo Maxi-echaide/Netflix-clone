@@ -4,6 +4,7 @@ import { AiOutlineInfoCircle } from 'react-icons/ai';
 import useInfoModalStore from '@/hooks/useInfoModalStore';
 import PlayButton from './PlayButton';
 
+
 const Billboard = () => {
   const { data } = useBillboard();
   const { openModal } = useInfoModalStore();
